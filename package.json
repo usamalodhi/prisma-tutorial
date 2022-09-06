@@ -1,0 +1,31 @@
+{
+  "name": "prisma-tutorial",
+  "version": "1.0.0",
+  "description": "- Introduction\r - Project Setup\r - Prisma Setup\r - Basic Prisma Model Setup\r - Prisma Migration Basics\r - Prisma Client Basics\r - Datasources and Generators\r - Model Fields\r - Model Relationships\r - Model Attributes\r - Enums\r - Client Create Operations\r - Client Read Operations\r - Advanced Filtering\r - Relationship Filtering\r - Client Update Operations\r - Connect Existing Relationships\r - Client Delete Operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon script.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamalodhi/prisma-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usamalodhi/prisma-tutorial/issues"
+  },
+  "homepage": "https://github.com/usamalodhi/prisma-tutorial#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "nodemon": "^2.0.19",
+    "prisma": "^4.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.3.1"
+  }
+}
